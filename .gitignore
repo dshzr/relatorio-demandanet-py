@@ -1,0 +1,43 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Arquivos de projeto e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs e dados
+*.log
+*.csv
+*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos temporários
+.ipynb_checkpoints/
+temp/
+tmp/
